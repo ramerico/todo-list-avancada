@@ -2,8 +2,8 @@
 
 Uma aplicação moderna de lista de tarefas com **tema claro/escuro**, **drag & drop** para reordenar, **filtros** e **persistência local** (localStorage). Desenvolvida com HTML5, CSS3 e JavaScript puro.
 
-![Demonstração](https://via.placeholder.com/800x400?text=screenchot-claro.png)
-(https://via.placeholder.com/800x400?text=screenchot-escuro.png)
+![Demonstração]<img width="2558" height="1173" alt="screenshot-escuro" src="https://github.com/user-attachments/assets/3947cf50-bc32-4a55-981b-1166e41edad0" />
+
 
 ## ✨ Funcionalidades
 
