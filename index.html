@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UFT-8">
+        <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+        <title>📝 To-Do List Avançada</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <h1>
+                    📋 Tarefas</h1>
+                    <div class="tema-toggle">
+                        <span>☀️</span>
+                        <label class="switch">
+                            <input type="checkbox" id="temaCheckbox">
+                            <span class="slider round"></span>
+                        </label>
+                        <span>🌙</span>
+                    </div>
+            </header>
+            <div class="adicionar-tarefa">
+                <input type="text" id="novaTarefaInput" placeholder="Digite uma nova tarefa..." autocomplete="off">
+                <button id="btnAdicionar">+ Adicionar</button>
+            </div>
+            <div class="filtros">
+                <button class="filtro-btn ativo" data-filtro="todas">Todas</button>
+                <button class="filtro-btn" data-filtro="ativas">Ativas</button>
+                <button class="filtro-btn" data-filtro="concluidas">Concluídas</button>
+            </div>
+            <ul id="listaTarefas" class="lista-tarefas"></ul>
+
+            <div class="rodape">
+                <span id="contadorTarefas">0 tarefas restantes</span>
+                <button id="btnLimparConcluidas">Limpar concluidas</button>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
